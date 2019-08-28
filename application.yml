@@ -1,0 +1,14 @@
+spring: 
+  profiles: 
+    active: 
+      - dev
+---
+spring: 
+  profile: dev #开发
+    application: 
+      name: MICROSERVICE-ACCOUNT-DEV
+---
+spring:
+  profile: test #测试
+    application: 
+      name: MICROSERVICE-ACCOUNT-TEST
